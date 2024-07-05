@@ -15,6 +15,7 @@ import parallel from "./parallel";
 import heiko from "./heiko";
 import crust from "./crust";
 import invarch from "./invarch";
+import edgeware from "./edgeware";
 import tinkernet from "./tinkernet";
 // import hydradxTestnet from "./hydradxTestnet";
 import peopleKusama from "./people-kusama";
@@ -38,6 +39,7 @@ const chains = {
   "crust-parachain": polkadotCrustParachain,
   crust,
   invarch,
+  edgeware,
   parallel,
   heiko,
   tangle,
